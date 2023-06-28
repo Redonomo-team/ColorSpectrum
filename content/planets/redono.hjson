@@ -26,7 +26,7 @@ cloudMesh: {
         thresh: 0.45
         }
 generator: {
-
+        defaultLoadout: "basicFortress"
 }
 allowLaunchToNumbered: false
 sectorSize: 3
