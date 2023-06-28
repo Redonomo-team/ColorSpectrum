@@ -3,7 +3,7 @@
     rotateSpeed : 9
     lightRadius : 10
     lightColor : ff4f4f
-    flying : true
+    flying : false
     health : 230
     speed : 2.6
     range : 115
