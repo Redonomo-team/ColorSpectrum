@@ -1,4 +1,16 @@
-type:Reconstructor
+type:UnitFactory
+configurable: true
+plans: [
+  {
+    unit: ronix
+    requirements: [
+      redum-shards/60
+      redum/20
+      granite/20
+    ]
+    time: 5128
+  }
+]
 name:"Universal assembler"
 category:units
 size:3
@@ -6,17 +18,11 @@ requirements:[
   redum-shards/100
   redum/60
 ]
-consumes:{
-  items:[redum-shards/50,redum/30]
-}
-/*TODO:make ronix*/
-upgrades:{
-  redox:ronix
-}
 research:{
   parent:redum-constructor
     requirements:[
     redum-shards/1000
     redum/500
+granite/60
     ]
 }
