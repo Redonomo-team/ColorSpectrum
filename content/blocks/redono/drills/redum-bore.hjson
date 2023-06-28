@@ -7,5 +7,5 @@ size:2
 range:1
 requirements:[redum/10,redum-shards/20]
 research:{
-parent:redum,
+parent:redum-drill,
 requirements:[redum/200,redum-shards/400]}
