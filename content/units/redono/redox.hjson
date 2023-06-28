@@ -1,11 +1,11 @@
  
     circleTarget : true
     rotateSpeed : 9
-    lightRadius : 10
+    lightRadius : 30
     lightColor : ff4f4f
     flying : false
     health : 230
-    speed : 2.6
+    speed : 1.22
     range : 115
     name : Redox
     type : mech

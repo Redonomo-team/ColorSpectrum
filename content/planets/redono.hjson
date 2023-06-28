@@ -3,7 +3,7 @@ mesh: {
   planet: redonomo-redono
   seed: 81
   divisions: 6
-  color1: 595959
+  color1: 673535
   color2: ff4f4f
   colorScale: 2
   radius: 0.78
