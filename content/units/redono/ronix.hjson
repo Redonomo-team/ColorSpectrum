@@ -14,7 +14,7 @@
     name:"ronix"
     research : {
         
-        parent : universal-assembler
+        parent : granite-reconstructor
     }
     
     weapons : [{

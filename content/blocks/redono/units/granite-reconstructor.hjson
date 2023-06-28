@@ -1,0 +1,38 @@
+type: Reconstructor
+name: "Granite reconstructor"
+size: 3
+health: 540
+description: "Upgrades redox to ronix"
+constructTime: 4128
+upgrades: [
+  [redox, ronix]
+]
+consumes: {
+items:{
+  items: [
+  redum-shards/60
+      redum/20
+      granite/20
+  ]
+}
+}
+category: units
+research:{
+  parent:redum-constructor
+    requirements:[
+    redum-shards/1000
+    redum/500
+    granite/60
+    ]
+    objectives: [
+    {
+      type: OnSector
+      preset: red-outpost
+    }
+  ]
+}
+requirements: [
+  redum-shards/110
+  redum/70
+  granite/30
+]
