@@ -1,0 +1,21 @@
+type:Reconstructor
+name:"Universal assembler"
+category:units
+size:3
+requirements:[
+  redum-shards/100
+  redum/60
+]
+consumes:{
+  items:[redum-shards/50,redum/30]
+}
+upgrades:{
+  redox:ronix
+}
+research:{
+  parent:redum-constructor
+    requirements:[
+    redum-shards/1000
+    redum/500
+    ]
+}
