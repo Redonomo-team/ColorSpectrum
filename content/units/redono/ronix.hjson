@@ -1,27 +1,27 @@
- 
-    circleTarget : true
-    rotateSpeed : 9
-    lightRadius : 10
+
+    rotateSpeed : 7
+    lightRadius : 45
     lightColor : ff4f4f
     flying : false
-    health : 230
-    speed : 2.6
-    range : 115
-    name : Redox
+    hitSize: 14
+    health : 670
+    speed : 0.8
+    range : 180
+    name : Ronix
     type : mech
     outlineColor: 262626
     mechLegColor:262626
-    
+    name:"ronix"
     research : {
         
-        parent : universal-assembler
+        parent : redum-constructor
     }
-    name:"Ronix"
+    
     weapons : [{
         
         shootSound : none
         mirror : true
-        reload : 40
+        reload : 90
         name : ronix-weapon
         top: false
         x : 5.75
@@ -31,16 +31,68 @@
             
             frontColor : ffffff
             lightColor : ff4f4f
+            despawnHit : true
             backColor : ff4f4f
-            range:120
+            lifetime : 30
             hitColor : ff4f4f
-            damage : 10
-            type : LaserBulletType
+            shrinkY : 0
+            damage : 20
+            sprite : circle-bullet
+            recoil : 1
+            speed : 5
+            height : 10
+            width : 8
+            type : BasicBulletType
+            fragBullets: 5
+            fragBullet: {
+                type: BasicBulletType
+                height: 6
+                width: 4
+                speed: 3
+                drag: 0.1
+                damage: 10
+                lifetime: 20
+                sprite : circle-bullet
+                backColor : ff4f4f
+                frontColor : ffffff
+                lightColor : ff4f4f
+                hitColor : ff4f4f
+                fragBullets: 1
+                fragAngle: 0
+                fragAngleRand: 0
+                    fragBullet: {
+                    type: BasicBulletType
+                    trailColor: ff4f4f
+                    trailLength: 8
+                    trailWidth: 2
+                    height: 6
+                    width: 4
+                    speed: -5
+                    damage: 12
+                    lifetime: 8
+                    sprite : circle-bullet
+                    backColor : ff4f4f
+                    frontColor : ffffff
+                    lightColor : ff4f4f
+                    hitColor : ff4f4f
+                    }
+                hitEffect : {
+                strokeFrom : 3
+                colorFrom : ff4f4f
+                lifetime : 10
+                sizeFrom : 0
+                strokeTo : 0
+                colorTo : ffffff
+                sizeTo : 9
+                type : WaveEffect
+            }
+            }
+            
             hitEffect : {
                 strokeFrom : 2
                 colorFrom : ff4f4f
-                lifetime : 50
-                sizeFrom : 10
+                lifetime : 45
+                sizeFrom : 16
                 strokeTo : 0
                 colorTo : ffffff
                 sizeTo : 0
