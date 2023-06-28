@@ -1,0 +1,50 @@
+ 
+    circleTarget : true
+    rotateSpeed : 9
+    lightRadius : 10
+    lightColor : ff4f4f
+    flying : false
+    health : 230
+    speed : 2.6
+    range : 115
+    name : Redox
+    type : mech
+    outlineColor: 262626
+    mechLegColor:262626
+    
+    research : {
+        
+        parent : universal-assembler
+    }
+    name:"Ronix"
+    weapons : [{
+        
+        shootSound : none
+        mirror : true
+        reload : 40
+        name : ronix-weapon
+        top: false
+        x : 5.75
+        y : 1
+        
+        bullet : {
+            
+            frontColor : ffffff
+            lightColor : ff4f4f
+            backColor : ff4f4f
+            range:120
+            hitColor : ff4f4f
+            damage : 10
+            type : LaserBulletType
+            hitEffect : {
+                strokeFrom : 2
+                colorFrom : ff4f4f
+                lifetime : 50
+                sizeFrom : 10
+                strokeTo : 0
+                colorTo : ffffff
+                sizeTo : 0
+                type : WaveEffect
+            }
+        }
+    }]
