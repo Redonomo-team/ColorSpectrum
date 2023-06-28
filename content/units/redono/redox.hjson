@@ -4,6 +4,7 @@
     lightRadius : 30
     lightColor : ff4f4f
     flying : false
+    canBoost:true
     health : 230
     speed : 1.22
     range : 115
