@@ -9,6 +9,7 @@ requirements:[
 consumes:{
   items:[redum-shards/50,redum/30]
 }
+/*TODO:make ronix*/
 upgrades:{
   redox:ronix
 }
