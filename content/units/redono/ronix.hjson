@@ -14,7 +14,7 @@
     name:"ronix"
     research : {
         
-        parent : redum-constructor
+        parent : universal-assembler
     }
     
     weapons : [{
