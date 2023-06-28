@@ -5,7 +5,8 @@
     lightColor : ff4f4f
     flying : true
     health : 230
-    speed : 3.1
+    speed : 2.6
+    drag: 0.01
     range : 115
     name : Redox
     type : flying

@@ -1,13 +1,15 @@
 type:Wall
 requirements:[
-redum-shards/20]
-name:"redum unwall"
+redum-shards/20
+]
+name:"Redium wall"
 category:defense
-health:1000
+health:440
 research : {
         
         parent : redum-shards
         
         requirements : [
-        redum-shards/100]
+        redum-shards/100
+        ]
     }

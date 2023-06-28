@@ -1,11 +1,11 @@
 type:Router
-name:"redum router"
+name:"Redium router"
 health:140
 requirements:[
 redum-shards/3]
 research : {
         
-        parent : redum-shards
+        parent : redum-conveyor
         
         requirements : [
         redum-shards/60]

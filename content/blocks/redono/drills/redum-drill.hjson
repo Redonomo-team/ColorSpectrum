@@ -1,14 +1,16 @@
 type:Drill
-name:"Redum drill"
+name:"Redium drill"
 category:production
 requirements:[
-redum-shards/12]
+redum-shards/12
+]
 research : {
         
-        parent : redum-shards
+        parent: core-fortress
         
         requirements : [
-        redum-shards/90]
+        redum-shards/90
+        ]
     }
 tier:2
 drillTime:550

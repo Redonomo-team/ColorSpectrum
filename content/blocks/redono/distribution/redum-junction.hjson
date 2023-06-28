@@ -1,11 +1,11 @@
 type:Junction
-name:"redum junction"
+name:"Redium junction"
 health:120
 requirements:[
 redum-shards/2]
     research : {
         
-        parent : redum-shards
+        parent : redum-conveyor
         
         requirements : [
         redum-shards/40]
