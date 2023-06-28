@@ -1,0 +1,12 @@
+type:Junction
+name:"redum junction"
+health:120
+requirements:[
+redum-shards/2]
+    research : {
+        
+        parent : redum-shards
+        
+        requirements : [
+        redum-shards/40]
+    }

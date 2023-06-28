@@ -19,6 +19,8 @@ singleTarget: true
 outlineRadius: 4
 outlineColor: 262626
 mechLegColor:262626
+research:core-fortress
+alwaysUnlocked:true
 parts: [
 {
 type: RegionPart

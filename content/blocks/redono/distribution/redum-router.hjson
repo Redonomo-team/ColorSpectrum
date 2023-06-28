@@ -1,0 +1,12 @@
+type:Router
+name:"redum router"
+health:140
+requirements:[
+redum-shards/3]
+research : {
+        
+        parent : redum-shards
+        
+        requirements : [
+        redum-shards/60]
+    }

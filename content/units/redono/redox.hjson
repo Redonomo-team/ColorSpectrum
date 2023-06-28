@@ -13,13 +13,7 @@
     
     research : {
         
-        parent : aircraft-factory
-        
-        requirements : [
-            lead/1450
-            silicon/850
-            graphite/650
-        ]
+        parent : redum-constructor
     }
     
     weapons : [{
