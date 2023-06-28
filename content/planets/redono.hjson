@@ -56,6 +56,7 @@ landCloudColor: ff4f4f
 parent: serpulo
 alwaysUnlocked: true
 hiddenItems: [
+        "copper",
         "lead",
         "scrap",
         "graphite",
