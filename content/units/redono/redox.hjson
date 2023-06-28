@@ -6,11 +6,11 @@
     flying : true
     health : 230
     speed : 2.6
-    drag: 0.01
     range : 115
     name : Redox
-    type : flying
+    type : mech
     outlineColor: 262626
+    mechLegColor:262626
     
     research : {
         
