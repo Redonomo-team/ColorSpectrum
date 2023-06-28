@@ -1,0 +1,17 @@
+type: GenericCrafter
+size: 2
+itemCapacity: 8
+craftTime: 45
+consumes: {
+  items:["redum-shards/4"]
+}
+outputItems: [
+  redum/1
+]
+category: crafting
+requirements: [
+  redum-shards/25
+]
+research: core-fortress
+envEnabled: -1
+envDisabled: 4

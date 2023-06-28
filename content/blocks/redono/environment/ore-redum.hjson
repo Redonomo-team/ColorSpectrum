@@ -1,0 +1,6 @@
+type: OreBlock
+itemDrop: redum-shards
+oreDefault: true
+variants: 1
+oreScale: 2
+oreThreshold: 0.917

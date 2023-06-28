@@ -1,0 +1,19 @@
+type:CoreBlock
+name:"Core: Fortress"
+health:1300
+itemCapacity:1500
+size: 3
+requirements:[
+redum/500
+redum-shards/1000
+]
+alwaysUnlocked:true
+isFirstTier:true
+unitType:guard
+category: effect
+research: {
+    root: true
+    name: "Redono"
+    requiresUnlock: false
+    planet: redono
+}

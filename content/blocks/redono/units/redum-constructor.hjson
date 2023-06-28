@@ -1,0 +1,27 @@
+name: "Redum constructor"
+type: UnitFactory
+health: 500
+size: 2
+configurable: false
+plans: [
+  {
+    unit: redox
+    requirements: [
+      redum-shards/30
+      redum/10
+    ]
+    time: 2560
+  }
+]
+category: units
+research: {
+  parent: core-fortress
+  requirements: [
+  redum-shards/700
+  redum/400
+]
+}
+requirements: [
+  redum-shards/50
+  redum/30
+]

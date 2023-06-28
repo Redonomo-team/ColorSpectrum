@@ -1,0 +1,80 @@
+mesh: {
+  type: NoiseMesh
+  planet: redonomo-redono
+  seed: 81
+  divisions: 6
+  color1: 595959
+  color2: ff4f4f
+  colorScale: 2
+  radius: 0.78
+  octaves: 5
+  persistence: 1
+  scale: 1
+  mag: 1.6
+  }
+cloudMesh: {
+        type: HexSkyMesh
+        planet: redono
+        seed: 3
+        speed: 3
+        radius: 0.10
+        divisions: 5
+        color: ff4f4f
+        octaves: 2
+        persistence: 2
+        scl: 2
+        thresh: 0.45
+        }
+generator: {
+
+}
+allowLaunchToNumbered: false
+sectorSize: 3
+orbitSpacing: 12
+orbitRadius: 21
+raradius: 0.8
+minZoom: 1
+maxZoom: 4
+atmosphereRadIn: 0
+atmosphereRadOut: 0.35
+accessible: true
+updateLighting: true
+sectorSeed: 17
+startSector: 8
+bloom: false
+visible: true
+atmosphereColor: f77c7c
+iconColor: ff4f4f
+hasAtmosphere: true
+allowSectorInvasion: false
+allowWaveSimulation: false
+clearSectorOnLose: true
+allowLaunchSchematics: true
+allowWaves: true
+defaultCore: core-fortress
+landCloudColor: ff4f4f
+parent: serpulo
+alwaysUnlocked: true
+hiddenItems: [
+        "lead",
+        "scrap",
+        "graphite",
+        "coal",
+        "titanium",
+        "thorium",
+        "silicon",
+        "plastanium",
+        "phase-fabric",
+        "surge-alloy",
+        "spore-pod",
+        "sand",
+        "blast-compound",
+        "pyratite",
+        "metaglass",
+        "beryllium",
+        "oxide",
+        "tungsten",
+        "carbide",
+        "fissile-matter",
+        "dormant-cyst"
+]

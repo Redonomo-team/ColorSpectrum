@@ -1,0 +1,72 @@
+ 
+    circleTarget : true
+    rotateSpeed : 9
+    lightRadius : 10
+    lightColor : ff4f4f
+    flying : true
+    health : 230
+    speed : 3.1
+    range : 115
+    name : Redox
+    type : flying
+    outlineColor: 262626
+    
+    research : {
+        
+        parent : aircraft-factory
+        
+        requirements : [
+            lead/1450
+            silicon/850
+            graphite/650
+        ]
+    }
+    
+    weapons : [{
+        
+        shootSound : none
+        mirror : true
+        reload : 40
+        name : redox-gun
+        top: false
+        x : 3.5
+        y : 0
+        
+        bullet : {
+            
+            frontColor : ffffff
+            lightColor : ff4f4f
+            despawnHit : true
+            backColor : ff4f4f
+            lifetime : 20
+            hitColor : ff4f4f
+            shrinkY : 0
+            damage : 10
+            sprite : circle-bullet
+            recoil : 1
+            speed : 5
+            height : 9
+            width : 7
+            type : BasicBulletType
+            fragBullets: 4
+            fragBullet: {
+                type: BasicBulletType
+                height: 6
+                width: 4
+                speed: 3
+                damage: 4
+                lifetime: 5
+            }
+            
+            hitEffect : {
+                strokeFrom : 2
+                colorFrom : ff4f4f
+                lifetime : 50
+                sizeFrom : 10
+                strokeTo : 0
+                colorTo : ffffff
+                sizeTo : 0
+                type : WaveEffect
+            }
+        }
+    }]

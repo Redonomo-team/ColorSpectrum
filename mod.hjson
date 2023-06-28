@@ -1,0 +1,8 @@
+name: "redonomo"
+displayName: "redonomo"
+author: "redonomo Team"
+description: "redonomo"
+version: "1.0"
+minGameVersion: "140"
+dependencies: [ ]
+hidden: false

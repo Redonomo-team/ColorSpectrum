@@ -1,0 +1,5 @@
+sector: 8
+planet: redono
+difficulty: 3
+alwaysUnlocked: true
+research: core-fortress

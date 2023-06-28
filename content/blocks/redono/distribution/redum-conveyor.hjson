@@ -1,0 +1,8 @@
+type: Conveyor
+requirements: [
+  redum-shards/3
+]
+speed:0.04
+category: distribution
+research: core-fortress
+health:120

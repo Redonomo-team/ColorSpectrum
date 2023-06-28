@@ -1,0 +1,87 @@
+type: mech
+speed: 0.7
+buildSpeed: 2.5
+buildRange: 320
+mineSpeed: 8
+mineRange: 320
+mineTier: 1
+riseSpeed: 0.12
+canBoost: true
+engineOffset: 6
+engineSize: 2
+lowAltitude: true
+hitSize: 10
+armor: 2
+health: 500
+targetGround: true
+targetAir: true
+singleTarget: true
+outlineRadius: 4
+outlineColor: 262626
+mechLegColor:262626
+parts: [
+{
+type: RegionPart
+suffix: -mandible
+mirror: true
+moveX: 2
+progress: warmup
+}
+]
+
+weapons: [
+{
+name: guard-weapon
+top: false
+mirror: false
+x: 0
+y: 0
+shootY: 1.5
+shootSound: sap
+reload: 24
+recoil: 0
+bullet: {
+type: SapBulletType
+speed: 0
+damage: 12
+sapStrength: 0.6
+length: 120
+collidesGround: true
+collidesAir: true
+impact: true
+buildingDamageMultiplier: 0.01
+shootEffect: shootSmall
+despawnEffect: none
+lifetime: 30
+pierce: true
+hittable: false
+hitSize: 4
+hitEffect: hitLiquid
+status: sapped
+statusDuration: 180
+impact: true
+}
+}
+{
+name: guard-gun
+mirror: true
+top: false
+x: 7.75
+y: 0
+shootY: 6.5
+shootSound: laser
+reload: 9
+recoil: 1.75
+bullet: {
+type: LaserBulletType
+damage: 30
+length: 120
+width: 6
+hitSize: 4
+colors: [ff2b2b, ff4f4f, f77c7c]
+collidesAir: true
+collidesGround: true
+buildingDamageMultiplier: 0.01
+}
+}
+]
