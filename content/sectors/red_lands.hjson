@@ -1,0 +1,12 @@
+sector: 156
+planet: redono
+difficulty: 5
+research: {
+parent: red-outpost
+objectives: [
+    {
+      type: SectorComplete
+      preset: red-outpost
+    }
+  ]
+}
