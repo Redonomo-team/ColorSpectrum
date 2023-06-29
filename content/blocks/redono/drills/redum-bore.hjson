@@ -1,6 +1,15 @@
 type:BeamDrill
 name:"redium bore"
-drillTime:150
+drillTime:70
+liquidBoostIntensity: 1.7
+consumes: {
+  liquid: {
+    liquid: slag
+    amount: 0.002
+    booster: true
+    optional: true
+  }
+}
 tier:2
 category:production
 size:2

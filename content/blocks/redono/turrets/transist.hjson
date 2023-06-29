@@ -1,0 +1,54 @@
+type: ItemTurret
+category: turret
+health: 420
+size: 2
+range: 210
+reload: 4
+recoil: 1
+rotateSpeed: 1.8
+shootSound: bang
+targetGround: true
+targetAir: true
+outlineColor: 262626
+shoot: {
+    firstShotDelay: 18
+}
+
+drawer: {
+type: DrawTurret
+basePrefix: granite-
+parts: [
+{
+type: RegionPart
+suffix: -wing
+mirror: true
+under: true
+x: 2
+moveY: 2.8
+moveX: 1
+moveRot: 68
+progress: warmup
+}
+]
+}
+
+requirements: [
+redum/35
+granite/20
+]
+
+ammoTypes: {
+granite: {
+type: BasicBulletType
+speed: 10
+lifetime: 21
+damage: 8
+width: 7
+height: 10
+collidesGround: true
+collidesAir: true
+ammoMultiplier: 3
+}
+}
+
+research: lust

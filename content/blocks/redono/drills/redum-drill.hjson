@@ -12,6 +12,15 @@ research : {
         redum-shards/90
         ]
     }
+liquidBoostIntensity: 1.7
+consumes: {
+  liquid: {
+    liquid: slag
+    amount: 0.004
+    booster: true
+    optional: true
+  }
+}
 tier:2
 drillTime:550
 size:2
