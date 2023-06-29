@@ -20,5 +20,5 @@ mirror : true
         }
         ]
 research:{
-parent:core-fortress
+parent:core-fortress/*TODO add flare factory and change parent to flare factory*/
 }
