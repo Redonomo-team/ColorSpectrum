@@ -1,6 +1,7 @@
 type:PowerNode
 health:200
 name:"redium node"
+category:power
 requirements:[
   granite/5
   redum/5
