@@ -1,0 +1,24 @@
+type:flying
+flying:true
+speed:2.8
+name:"mini redumlare"
+weapons:[
+{
+mirror : true
+        reload : 20
+        name : redumlare-gun
+        top: false
+        x : 3.5
+        y : 0
+        bullet:{
+        type:BasicBulletType
+        lifetime:30
+        damage:10
+        despawnHit : true
+        speed:10
+        }
+        }
+        ]
+research:{
+parent:core-fortress
+}
