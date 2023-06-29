@@ -13,7 +13,7 @@ ambientSoundVolume:0.03
 generateEffect:generatespark
 consumes:{
 items:[redum-shards/1]}
-research:{parent:granite
+research:{parent:core-fortress
 requirements:[granite/50
 redum-shards/180
 redum/80]}
