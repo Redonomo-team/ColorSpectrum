@@ -1,6 +1,6 @@
 type:BeamDrill
 name:"redium bore"
-drillTime:70
+drillTime:150
 tier:2
 category:production
 size:2
