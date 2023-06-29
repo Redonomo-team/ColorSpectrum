@@ -13,7 +13,7 @@ mirror : true
         bullet:{
         type:BasicBulletType
         lifetime:9
-        damage:10
+        damage:20
         despawnHit : true
         speed:10
         }
