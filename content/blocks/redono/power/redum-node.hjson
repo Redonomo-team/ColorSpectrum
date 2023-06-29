@@ -6,6 +6,8 @@ requirements:[
   redum/5
   redum-shards/10
 ]
+maxNodes:7
+laserRange:8
 research:{
   parent:redum-generator
   requirements:[
