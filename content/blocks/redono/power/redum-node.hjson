@@ -1,0 +1,16 @@
+type:PowerNode
+health:200
+name:"redium node"
+requirements:[
+  granite/5
+  redum/5
+  redum-shards/10
+]
+research:{
+  parent:redum-generator
+  requirements:[
+    granite/100
+    redum/100
+    redum-shards/400
+  ]
+}
