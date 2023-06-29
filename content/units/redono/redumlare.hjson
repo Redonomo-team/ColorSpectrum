@@ -19,6 +19,7 @@ mirror : true
         }
         }
         ]
+/*TODO add flare factory and change parent to flare factory*/
 research:{
-parent:core-fortress/*TODO add flare factory and change parent to flare factory*/
+parent:core-fortress
 }
