@@ -20,5 +20,5 @@ mirror : true
         }
         ]
 research:{
-parent:granite-costructor
+parent:granite-constructor
 }
