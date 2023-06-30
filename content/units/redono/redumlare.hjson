@@ -1,24 +1,30 @@
 type:flying
 flying:true
+health: 98
 speed:2.8
-name:"mini redumlare"
+drag: 0.04
+name:"Call"
+outlineColor: 262626
 weapons:[
 {
 mirror : true
-        reload : 20
+        reload : 12
         name : redumlare-gun
         top: false
-        x : 3.5
+        x : 3
         y : 0
-        bullet:{
-        type:BasicBulletType
-        lifetime:9
-        damage:20
-        despawnHit : true
-        speed:10
-        }
-        }
-        ]
+bullet: {
+        type: LaserBulletType
+        damage: 12
+        length: 26
+        width: 8
+        hitSize: 6
+        colors: [ff2b2b, ff4f4f, f77c7c]
+        collidesAir: false
+        collidesGround: true
+}
+}
+]
 research:{
-parent:granite-constructor
+parent: granite-constructor
 }

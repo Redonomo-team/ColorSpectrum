@@ -1,19 +1,34 @@
 type:ConsumeGenerator
-name:"redum gen"
+name:"Redium generator"
 category:power
 requirements:[
 granite/10
 redum-shards/40
-redum/20]
+redum/20
+]
 size:2
 powerProduction:2
 itemDuration:160
 ambientSound:smelter
 ambientSoundVolume:0.03
 generateEffect:generatespark
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawWarmupRegion
+    }
+  ]
+}
 consumes:{
-items:[redum-shards/1]}
+items:[redum-shards/1]
+}
 research:{parent:core-fortress
 requirements:[granite/50
 redum-shards/180
-redum/80]}
+redum/80
+]
+}
