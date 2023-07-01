@@ -1,0 +1,57 @@
+  
+    smokeEffect : none
+    shootShake : 3
+    shootSound : shotgun
+    heatColor : f77c7c
+    targetAir : true
+    shootCone : 90
+    category : turret
+    research : transist
+    health : 620
+    reload : 180
+    range : 100
+    type : PowerTurret
+    size : 2
+    outlineColor: 262626
+    outlineRadius: 4
+    shoot: {
+        shotDelay: 2
+        shots: 10
+    }
+    
+    requirements : [
+        redum/80
+        granite/65
+        redum-plate/42
+    ]
+    
+    shootType : {
+        
+        despawnEffect : none
+        shootEffect : thoriumShoot
+        damage : 10
+        width: 6
+        length: 60
+        type : ShrapnelBulletType
+        toColor: f77c7c
+        
+        hitEffect : {
+            particles : 12
+            colorFrom : f77c7c
+            lifetime : 20
+            sizeFrom : 0
+            colorTo : f77c7c
+            length : 10
+            sizeTo : 8
+            type : ParticleEffect
+            line : true
+        }
+    }
+    drawer: {
+    type: DrawTurret
+    basePrefix: "bishake-"
+    }
+    
+    consumes : {
+        power : 5
+    }

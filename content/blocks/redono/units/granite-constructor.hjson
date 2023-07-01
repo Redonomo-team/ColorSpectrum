@@ -6,7 +6,7 @@ solid:false
 configurable: false
 plans: [
   {
-    unit: redumlare
+    unit: red-fly1
     requirements: [
       redum-shards/35
       redum/10

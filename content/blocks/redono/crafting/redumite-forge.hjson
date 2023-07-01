@@ -1,0 +1,39 @@
+type: GenericCrafter
+size: 3
+itemCapacity: 10
+craftTime: 100
+consumes: {
+  items:[
+    redum-shards/5
+    granite/3
+    ]
+  liquids: [
+    slag/0.005
+  ]
+}
+drawer: [
+    {
+        type: DrawRegion
+        suffix: -bottom
+    }
+    {
+        type: DrawLiquidTile
+        drawLiquid: slag
+        padding: 3
+    }
+    {
+        type: DrawDefault
+    }
+]
+outputItems: [
+  redum-plate/1
+]
+category: crafting
+requirements: [
+  redum-shards/110
+  redum/65
+  granite/50
+]
+research: redum-crystalizer
+envEnabled: -1
+envDisabled: 4

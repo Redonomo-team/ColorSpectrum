@@ -1,0 +1,22 @@
+type: GenericCrafter
+size: 2
+itemCapacity: 8
+craftTime: 60
+consumes: {
+  items:[
+    redum/1
+    granite/2
+  ]
+}
+outputItems: [
+  gradum/1
+]
+category: crafting
+requirements: [
+  redum-shards/90
+  redum/55
+  granite/48
+]
+research: redum-crystalizer
+envEnabled: -1
+envDisabled: 4

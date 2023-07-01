@@ -11,7 +11,6 @@
     type : mech
     outlineColor: 262626
     mechLegColor:262626
-    name:"ronix"
     research : {
         
         parent : granite-reconstructor

@@ -5,7 +5,7 @@ health: 540
 description: "Upgrades redox to ronix"
 constructTime: 4128
 upgrades: [
-  [redox, ronix]
+  [red-ground1, red-ground2]
 ]
 consumes: {
 items:{

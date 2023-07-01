@@ -6,7 +6,7 @@ solid:false
 configurable: false
 plans: [
   {
-    unit: redox
+    unit: red-ground1
     requirements: [
       redum-shards/30
       redum/10
