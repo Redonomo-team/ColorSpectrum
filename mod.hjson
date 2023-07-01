@@ -1,7 +1,7 @@
-name: "redonomo expansion"
-displayName: "redonomo"
+name: "redonomo"
+displayName: "redonomo expansion"
 author: "redonomo Team"
-description: "mod currently on beta bt it good in other versions this mod will be bigger"
+description: "mod"
 version: "1.0"
 minGameVersion: "140"
 dependencies: [ ]

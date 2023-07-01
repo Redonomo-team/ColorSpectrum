@@ -14,7 +14,7 @@ consumes: {
 tier:2
 category:production
 size:2
-range:2
+range:1
 requirements:[redum/10,redum-shards/20]
 research:{
 parent:redum-drill,
