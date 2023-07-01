@@ -16,7 +16,7 @@
     outlineRadius: 4
     shoot: {
         shotDelay: 2
-        shots: 10
+        shots: 12
     }
     
     requirements : [
@@ -29,7 +29,7 @@
         
         despawnEffect : none
         shootEffect : thoriumShoot
-        damage : 10
+        damage : 20
         width: 6
         length: 100
         type : ShrapnelBulletType
