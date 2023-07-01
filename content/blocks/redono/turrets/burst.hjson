@@ -31,7 +31,7 @@
         shootEffect : thoriumShoot
         damage : 10
         width: 6
-        length: 60
+        length: 100
         type : ShrapnelBulletType
         toColor: f77c7c
         
