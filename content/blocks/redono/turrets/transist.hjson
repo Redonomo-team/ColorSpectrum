@@ -34,7 +34,7 @@ progress: warmup
 
 requirements: [
 redum/35
-granite/20
+granite/45
 ]
 
 ammoTypes: {
@@ -42,7 +42,7 @@ granite: {
 type: BasicBulletType
 speed: 10
 lifetime: 21
-damage: 8
+damage: 18
 width: 7
 height: 10
 collidesGround: true
