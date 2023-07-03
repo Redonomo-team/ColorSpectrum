@@ -1,0 +1,12 @@
+sector: 171
+planet: redono
+difficulty: 7
+research: {
+parent: red_lands
+objectives: [
+    {
+      type: SectorComplete
+      preset: red_lands
+    }
+  ]
+}
