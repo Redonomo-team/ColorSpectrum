@@ -1,0 +1,17 @@
+type: Conduit
+health: 50
+liquidCapacity: 12
+liquidPressure: 0.95
+requirements: [
+    gradum/3
+]
+category: liquid
+research: {
+parent: core-fortress
+objectives: [
+    {
+      type: SectorComplete
+      preset: redum-station
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+type: Pump
+health: 80
+pumpAmount: 0.01
+requirements: [
+    redum/15
+    gradum/10
+]
+category: liquid
+research: {
+parent: gradum-cond
+objectives: [
+    {
+      type: SectorComplete
+      preset: redum-station
+    }
+  ]
+}
