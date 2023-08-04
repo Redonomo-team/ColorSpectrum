@@ -1,0 +1,23 @@
+name: "Tesla"
+type: UnitCargoLoader
+health: 700
+size: 2
+unitType: tesla-block-unit
+polyRadius: 0
+consumes:{
+items:[
+    redum/12
+    granite/6
+]
+power: 4
+}
+category: turret
+research: {
+  parent: transist
+}
+requirements: [
+    redum-shards/78
+    redum/130
+    granite/90
+    redum-plate/60
+]
