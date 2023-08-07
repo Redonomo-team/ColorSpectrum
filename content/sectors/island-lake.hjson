@@ -1,0 +1,12 @@
+sector: 67
+planet: redono
+difficulty: 7
+research: {
+parent: redum-station
+objectives: [
+    {
+      type: SectorComplete
+      preset: redum-station
+    }
+  ]
+}

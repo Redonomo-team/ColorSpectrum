@@ -6,4 +6,4 @@ version: "1.0"
 minGameVersion: "140"
 dependencies: [ ]
 hidden: false
-hideBrowser: true
+hideBrowser: false
