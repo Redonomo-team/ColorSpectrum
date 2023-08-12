@@ -1,6 +1,6 @@
 type:flying
 flying:true
-health: 98
+health: 230
 speed:2.8
 drag: 0.04
 name:"Call"
@@ -8,7 +8,7 @@ outlineColor: 262626
 weapons:[
 {
 mirror : true
-        reload : 12
+        reload : 20
         name : redumlare-gun
         top: false
         x : 3
