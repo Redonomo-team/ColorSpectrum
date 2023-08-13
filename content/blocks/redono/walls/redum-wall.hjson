@@ -1,6 +1,6 @@
 type:Wall
 requirements:[
-redum-shards/20
+redum-shards/14
 ]
 name:"Redium wall"
 category:defense
