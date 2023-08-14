@@ -8,7 +8,26 @@ drag: 1
 name:"Active tesla"
 outlineColor: 262626
 outlineRadius: 0
-engineSize: 0
+engines: [
+  {
+    x: 0
+    y: 5
+    rotation: 90
+    radius: 2.5
+  }
+  {
+    x: 5
+    y: 0
+    rotation: 0
+    radius: 2.5
+  }
+  {
+    x: -5
+    y: 0
+    rotation: 180
+    radius: 2.5
+  }
+  ]
 abilities : [{
         
         hitBuildings : true

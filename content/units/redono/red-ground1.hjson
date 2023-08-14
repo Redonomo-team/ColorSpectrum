@@ -4,7 +4,7 @@
     lightRadius : 30
     lightColor : ff4f4f
     flying : false
-    health : 460
+    health : 230
     speed : 1.22
     range : 115
     name : Redox
@@ -36,20 +36,20 @@
             lifetime : 20
             hitColor : ff4f4f
             shrinkY : 0
-            damage : 12
+            damage : 10
             sprite : circle-bullet
             recoil : 1
             speed : 5
             height : 9
             width : 7
             type : BasicBulletType
-            fragBullets: 3
+            fragBullets: 4
             fragBullet: {
                 type: BasicBulletType
                 height: 6
                 width: 4
                 speed: 3
-                damage: 5
+                damage: 4
                 lifetime: 5
             }
             

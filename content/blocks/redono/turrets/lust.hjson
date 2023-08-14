@@ -45,24 +45,6 @@ redum-shards/16
 ]
 
 ammoTypes: {
-lead: {
-type: FlakBulletType
-speed: 12
-lifetime: 10
-damage: 10
-splashDamage: 24
-splashDamageRadius: 12
-width: 6
-height: 8
-collidesGround: true
-collidesAir: true
-hitEffect: flakExplosionBig
-pierce: true
-pierceCap: 4
-hittable: true
-reflectable: true
-absorbable: true
-},
 redum-shards: {
 type: FlakBulletType
 speed: 12
@@ -87,12 +69,12 @@ speed: 12
 lifetime: 10
 damage: 20
 splashDamage: 24
-splashDamageRadius: 24
+splashDamageRadius: 16
 width: 6
 height: 8
 collidesGround: true
 collidesAir: true
-ammoMultiplier: 8
+ammoMultiplier: 2
 hitEffect: flakExplosionBig
 pierce: true
 pierceCap: 4

@@ -1,6 +1,6 @@
 
 type: mech
-speed: 1.4
+speed: 0.9
 buildSpeed: 2.5
 buildRange: 320
 mineSpeed: 8
@@ -9,7 +9,7 @@ mineTier: 1
 riseSpeed: 0.12
 canBoost: true
 engineOffset: 6
-engineSize: 2.5
+engineSize: 2
 lowAltitude: true
 hitSize: 10
 armor: 2
@@ -41,12 +41,12 @@ x: 0
 y: 0
 shootY: 1.5
 shootSound: sap
-reload: 22
+reload: 24
 recoil: 0
 bullet: {
 type: SapBulletType
 speed: 0
-damage: 18
+damage: 14
 sapStrength: 0.6
 length: 120
 collidesGround: true
@@ -73,11 +73,11 @@ x: 7.75
 y: 0
 shootY: 6.5
 shootSound: laser
-reload: 36
+reload: 12
 recoil: 1.75
 bullet: {
 type: LaserBulletType
-damage: 50
+damage: 30
 length: 120
 width: 6
 hitSize: 4

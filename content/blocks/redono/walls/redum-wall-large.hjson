@@ -1,6 +1,6 @@
 type:Wall
 requirements:[
-redum-shards/60]
+redum-shards/80]
 name:"Large redium wall"
 size:2
 category:defense

@@ -1,6 +1,6 @@
 type:flying
 flying:true
-health: 230
+health: 110
 speed:2.8
 drag: 0.04
 name:"Call"
@@ -15,7 +15,7 @@ mirror : true
         y : 0
 bullet: {
         type: LaserBulletType
-        damage: 12
+        damage: 20
         length: 26
         width: 8
         hitSize: 6
