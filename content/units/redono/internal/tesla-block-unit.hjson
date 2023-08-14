@@ -1,6 +1,5 @@
 type:tether
 flying:true
-hittable: false
 playerControllable: false
 health: 200
 speed: 0
