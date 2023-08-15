@@ -1,0 +1,37 @@
+type: GenericCrafter
+size: 3
+itemCapacity: 10
+craftTime: 100
+consumes: {
+  items:[
+    redum/4
+    ]
+  liquids: [
+    slag/0.01
+  ]
+}
+drawer: [
+    {
+        type: DrawRegion
+        suffix: -bottom
+    }
+    {
+        type: DrawLiquidTile
+        drawLiquid: slag
+        padding: 3
+    }
+    {
+        type: DrawDefault
+    }
+]
+outputItems: [
+  slaganium/2
+]
+category: crafting
+requirements: [
+  redum-shards/150
+  redum/96
+  granite/70
+  redum-plate/42
+]
+research: redumite-forge
