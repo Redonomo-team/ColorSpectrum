@@ -1,10 +1,10 @@
 mesh: {
   type: NoiseMesh
-  planet: redonomo-redono
+  planet: redono
   seed: 81
   divisions: 6
   color1: 673535
-  color2: ff4f4f
+  color2: 4c2727
   colorScale: 2
   radius: 0.78
   octaves: 5
@@ -19,7 +19,7 @@ cloudMesh: {
         speed: 3
         radius: 0.10
         divisions: 5
-        color: ff4f4f
+        color: 4c2727
         octaves: 2
         persistence: 2
         scl: 2
@@ -44,7 +44,7 @@ startSector: 8
 bloom: false
 visible: true
 atmosphereColor: f77c7c
-iconColor: ff4f4f
+iconColor: 4c2727
 hasAtmosphere: true
 allowSectorInvasion: false
 allowWaveSimulation: false
@@ -52,7 +52,7 @@ clearSectorOnLose: true
 allowLaunchSchematics: true
 allowWaves: true
 defaultCore: core-fortress
-landCloudColor: ff4f4f
+landCloudColor: 4c2727
 parent: serpulo
 alwaysUnlocked: true
 hiddenItems: [

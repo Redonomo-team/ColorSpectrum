@@ -1,9 +1,9 @@
-name: "redonomo"
-displayName: "Rednomium"
+name: "colorspec"
+displayName: "Color Spectrum"
 author: "redonomo Team"
-description: "mod"
+description: "The mod of fight 4 colors"
 version: "1.0"
-minGameVersion: "140"
+minGameVersion: "145"
 dependencies: [ ]
 hidden: false
 hideBrowser: false

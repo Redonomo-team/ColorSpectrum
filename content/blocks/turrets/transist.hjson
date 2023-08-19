@@ -33,7 +33,6 @@ progress: warmup
 }
 
 requirements: [
-redum/35
 granite/45
 ]
 

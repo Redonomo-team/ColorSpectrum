@@ -14,17 +14,15 @@ outlineRadius: 4
 
 drawer: {
 type: DrawTurret
-basePrefix: bishake-
+basePrefix: snowdowr-
 }
 
 requirements: [
-redum-shards/96
-granite/44
-redum-plate/23
+bluerit/68
 ]
 
 ammoTypes: {
-slaganium: {
+bluerit: {
 type: BasicBulletType
 speed: 9
 lifetime: 15.5
@@ -32,10 +30,9 @@ damage: 8
 width: 5
 height: 5
 ammoMultiplier: 6
-hitEffect: flakExplosionBig
 collidesAir: false
 collideTerrain: true
+status: sliwed
+statusDuration: 38
 }
 }
-
-research: burst

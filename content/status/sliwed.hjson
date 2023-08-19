@@ -1,0 +1,22 @@
+    healthMultiplier : 1
+    speedMultiplier : 0.9
+    color : 1e29fb
+    name : slowid
+    
+    effect : {
+        
+        type : MultiEffect
+        
+        effects : [
+            {
+                particles : 8
+                colorFrom : 1e29fb
+                sizeFrom : 3
+                lifetime : 20
+                colorTo : 1e29fb
+                sizeTo : 0
+                length : 2
+                type : ParticleEffect
+                cone : 360
+            }]
+    }

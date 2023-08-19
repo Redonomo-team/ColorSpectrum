@@ -1,0 +1,21 @@
+type:BeamDrill
+name:"redium bore"
+/*im nerfing redium bore.DO NOT EDIT*/
+drillTime:160
+liquidBoostIntensity: 1.7
+consumes: {
+  liquid: {
+    liquid: slag
+    amount: 0.002
+    booster: true
+    optional: true
+  }
+}
+tier:2
+category:production
+size:2
+range:1
+requirements:[redum/10,redum-shards/20]
+research:{
+parent:redum-drill,
+requirements:[redum/200,redum-shards/400]}

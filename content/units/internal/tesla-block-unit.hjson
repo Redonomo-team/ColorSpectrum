@@ -38,16 +38,16 @@ abilities : [{
         sectors : 4
         damage : 40
         reload : 20
-        color : ff4f4fFF
+        color : ff4fdaFF
         range : 70
         type : EnergyFieldAbility
         
         healEffect : {
             particles : 6
-            colorFrom : ff4f4fFF
+            colorFrom : ff4fdaFF
             lifetime : 20
             lenFrom : 6
-            colorTo : ff2b2bFF
+            colorTo : a6328dFF
             offset : 50
             sizeFrom: 5
             sizeTo: 0

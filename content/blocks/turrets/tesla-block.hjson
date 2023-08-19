@@ -6,18 +6,15 @@ unitType: tesla-block-unit
 polyRadius: 0
 consumes:{
 items:[
-    redum/12
+    reaction-sand/12
     granite/6
 ]
 power: 4
 }
 category: turret
-research: {
-  parent: transist
-}
+//TODO normal item requirements
 requirements: [
-    redum-shards/78
-    redum/130
+    reaction-sand/270
     granite/90
     redum-plate/60
 ]
