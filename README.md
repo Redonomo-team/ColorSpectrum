@@ -6,3 +6,5 @@ New server, maded by RouterXdd
 https://discord.gg/YzHgwvm5
 Older server with more people (But be ready for some stranges):
 https://discord.gg/gvZzp3WA
+# Some Info
+this mod is unfinnished yet but have normal progress
