@@ -1,0 +1,5 @@
+type: TallBlock
+variants: 2
+clipSize: 128
+itemDrop: emerald
+shadowOffset: -1

@@ -1,0 +1,4 @@
+type: OreBlock
+itemDrop: emerald
+wallOre: true
+variants: 1

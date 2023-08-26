@@ -1,0 +1,86 @@
+type:flying
+flying:true
+health: 17890
+armor: 5
+speed:0.4
+drag: 0.1
+hitSize: 21
+range : 210
+name:"Rise"
+outlineColor: 262626
+engineOffset: 14
+engineSize: 4.4
+rotateSpeed: 5
+weapons:[
+{
+mirror : true
+        reload : 230
+        name : rise-weapon
+        rotate: true
+        top: true
+        x : 11
+        y : -3
+        alternate: false
+        inaccuracy: 10
+        shoot: {
+        shotDelay: 2
+        shots: 40
+    }
+bullet: {
+        type: BasicBulletType
+        damage: 10
+        length: 16
+        width: 8
+        hitSize: 6
+        lifetime: 50
+        speed: 6
+        frontColor: ffffff
+        backColor: ffffff
+        trailRotation: true
+        trailEffect: disperseTrail
+        tarilLength: 4
+}
+}
+{
+mirror : false
+        reload : 540
+        name : replica
+        top: false
+        x : 0
+        y : 7
+        alternate: false
+bullet: {
+        type: RailBulletType
+        damage: 10000000000000
+        length: 120
+        hitShake: 10
+        pierce: false
+        hitEffect: {
+                particles : 6
+            colorFrom : ffffffFF
+            lifetime : 70
+            lenFrom : 6
+            colorTo : 00000000
+            offset : 50
+            sizeFrom: 4
+            sizeTo: 0
+            type : ParticleEffect
+            cone : 360
+        }
+        pointEffect:{
+            particles : 6
+            colorFrom : ffffffFF
+            lifetime : 30
+            lenFrom : 4
+            colorTo : 00000000
+            offset : 0
+            sizeFrom: 3
+            sizeTo: 0
+            type : ParticleEffect
+            cone : 0
+        }
+        pointEffectSpace: 5
+        effectColor: ffffff
+}
+}
+]

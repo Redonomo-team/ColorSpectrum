@@ -1,0 +1,44 @@
+{     
+    name: silo-missile
+          type: missile
+          controller: MissileAI
+          flying: true
+          maxRange: 6
+          health: 400
+          speed: 8
+          homingDelay: 8
+          lowAltitude: true
+          engineSize: 3
+          engineColor: ee3535
+          trailColor: ee3535
+          trailWidth: 2.5
+          trailLength: 5
+          lifetime: 40
+          hidden: true
+            useUnitCap: false
+            logicControllable: false
+            playerControllable: false
+            allowedInPayloads: false
+            createWreck: false
+            createScorch: false
+          weapons: [
+            {
+          shootCone: 360
+          mirror: false
+          reload: 180
+          shootOnDeath: true
+          bullet: {
+            type: BombBulletType
+              splashDamageRadius: 30
+        instantDisappear: true
+        splashDamage: 60
+        killShooter: true
+        hittable: false
+        collidesAir: true
+              shootEffect: {
+                  lifetime: 50
+              }
+        }
+      }
+      ]
+}

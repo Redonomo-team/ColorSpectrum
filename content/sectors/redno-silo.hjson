@@ -1,0 +1,12 @@
+sector: 43
+planet: redono
+difficulty: 6
+research: {
+parent: redbegin
+objectives: [
+    {
+      type: SectorComplete
+      preset: redbegin
+    }
+  ]
+}

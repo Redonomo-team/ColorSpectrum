@@ -73,11 +73,11 @@ x: 7.75
 y: 0
 shootY: 6.5
 shootSound: laser
-reload: 12
+reload: 22
 recoil: 1.75
 bullet: {
 type: LaserBulletType
-damage: 30
+damage: 20
 length: 120
 width: 6
 hitSize: 4

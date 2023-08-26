@@ -1,0 +1,56 @@
+type: legs
+speed: 1.4
+buildSpeed: 2
+buildRange: 120
+mineSpeed: 10
+mineRange: 170
+mineTier: 3
+mineWalls: true
+mineFloor: false
+lowAltitude: true
+hitSize: 10
+armor: 1
+health: 620
+targetGround: true
+targetAir: true
+singleTarget: true
+outlineRadius: 4
+outlineColor: 262626
+mechLegColor:262626
+alwaysUnlocked:true
+allowLegStep: true
+hovering: true
+legLength: 12
+legMinLength: 1
+weapons: [
+{
+name: declaration-weapon
+top: true
+mirror: true
+rotate: true
+x: 2
+y: -3
+shootY: 1
+shootSound: pew
+alternate: false
+reload: 16
+recoil: 1
+bullet: {
+type: MissileBulletType
+speed: 5
+height: 7
+width: 4
+damage: 18
+splashDamage: 15
+splashDamageRadius: 18
+collidesGround: true
+collidesAir: true
+impact: true
+backColor: 36dc23
+frontColor: 62ff4f
+buildingDamageMultiplier: 0.01
+shootEffect: shootSmall
+lifetime: 30
+}
+}
+]

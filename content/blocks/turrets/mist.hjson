@@ -1,0 +1,65 @@
+type: ItemTurret
+category: turret
+health: 620
+size: 2
+range: 170
+reload: 10
+recoil: 1
+rotateSpeed: 2.6
+shootSound: bang
+targetGround: true
+targetAir: true
+outlineColor: 262626
+
+drawer: {
+type: DrawTurret
+basePrefix: gasger-
+parts: [
+{
+type: RegionPart
+suffix: -wing
+mirror: true
+under: true
+x: 0
+moveY: -1
+moveX: 1
+moveRot: -20
+progress: recoil
+}
+]
+}
+
+requirements: [
+granite/72
+emerald/40
+]
+
+ammoTypes: {
+emerald: {
+type: ArtilleryBulletType
+speed: 20
+lifetime: 8.5
+splashDamage: 10
+width: 7
+height: 11
+ammoMultiplier: 2
+trailLength: 14
+trailColor: 5fd850
+frontColor: 5fd850
+backColor: 5fd850
+fragBullets: 4
+            fragBullet: {
+                type: BasicBulletType
+                height: 8
+                width: 8
+                sprite: circle-bullet
+                speed: 4
+                pierce: true
+                drag: 0.8
+                damage: 4
+                lifetime: 200
+                frontColor: 5fd850
+                backColor: 5fd850
+            }
+}
+}

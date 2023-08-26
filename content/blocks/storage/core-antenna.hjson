@@ -1,0 +1,13 @@
+type:CoreBlock
+name:"Core: Antenna"
+health:800
+itemCapacity:1000
+size: 2
+requirements:[
+emerald/280
+granite/600
+]
+alwaysUnlocked:true
+isFirstTier:true
+unitType: declaration
+category: effect

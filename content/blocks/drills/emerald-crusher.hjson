@@ -1,0 +1,20 @@
+type:BeamDrill
+name:"Emerald crasher"
+drillTime:120
+liquidBoostIntensity: 2
+consumes: {
+  liquid: {
+    liquid: slag
+    amount: 0.004
+    booster: true
+    optional: true
+  }
+}
+health:110
+tier:3
+category:production
+size:2
+range:4
+requirements:[
+    emerald/42
+]

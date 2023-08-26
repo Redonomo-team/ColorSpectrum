@@ -8,7 +8,7 @@ outlineColor: 262626
 weapons:[
 {
 mirror : true
-        reload : 20
+        reload : 8
         name : redumlare-gun
         top: false
         x : 3
