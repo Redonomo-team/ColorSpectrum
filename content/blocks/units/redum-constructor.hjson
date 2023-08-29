@@ -18,8 +18,8 @@ category: units
 research: {
   parent: core-fortress
   requirements: [
-  redum-shards/700
-  redum/400
+  redum-shards/100
+  redum/30
 ]
 }
 requirements: [
