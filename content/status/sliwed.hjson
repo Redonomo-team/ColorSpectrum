@@ -1,7 +1,7 @@
     healthMultiplier : 1
     speedMultiplier : 0.9
     color : 1e29fb
-    name : slowid
+    name : slowed
     
     effect : {
         
