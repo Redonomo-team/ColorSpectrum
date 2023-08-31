@@ -1,4 +1,5 @@
 type: ItemTurret
+description:"long ranged turret from [grey]granite[white] and [red]redium
 category: turret
 health: 420
 size: 2
@@ -34,6 +35,7 @@ progress: warmup
 
 requirements: [
 granite/45
+redum/35
 ]
 
 ammoTypes: {
