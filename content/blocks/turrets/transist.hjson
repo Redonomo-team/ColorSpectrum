@@ -35,7 +35,7 @@ progress: warmup
 
 requirements: [
 granite/45
-redum/35
+Redium/35
 ]
 
 ammoTypes: {
