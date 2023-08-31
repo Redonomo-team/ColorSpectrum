@@ -1,7 +1,7 @@
 type:tether
 flying:true
-playerControllable: false
-health: 200
+playerControllable: true
+health: 400
 speed: 0
 drag: 1
 name:"Active tesla"
@@ -31,15 +31,15 @@ abilities : [{
         
         hitBuildings : true
         effectRadius : 4
-        healPercent : 2
+        healPercent : 3
         rotateSpeed : 2
-        maxTargets : 5
+        maxTargets : 7
         sectorRad : 0.18
         sectors : 4
-        damage : 40
-        reload : 20
+        damage : 60
+        reload : 15
         color : ff4fdaFF
-        range : 70
+        range : 80
         type : EnergyFieldAbility
         
         healEffect : {
