@@ -17,6 +17,5 @@ size:2
 range:4
 requirements:[
 granite/34
-redium/42
 gradum/12
 ]
