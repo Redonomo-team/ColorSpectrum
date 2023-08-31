@@ -1,5 +1,4 @@
 type: ItemTurret
-description:"a first turret of [green]green faction[white] from emeralds
 category: turret
 health: 670
 size: 2
