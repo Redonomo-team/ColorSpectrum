@@ -53,7 +53,7 @@ allowLaunchSchematics: true
 allowWaves: true
 defaultCore: core-fortress
 landCloudColor: 4c2727
-parent: serpulo
+parent: sun
 alwaysUnlocked: true
 hiddenItems: [
         "copper",
