@@ -16,6 +16,5 @@ category:production
 size:2
 range:4
 requirements:[
-granite/34
-gradum/12
+    emerald/42
 ]

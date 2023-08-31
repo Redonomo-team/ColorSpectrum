@@ -1,12 +1,12 @@
 type:flying
 flying:true
 health: 17890
-armor: 16
-speed:0.2
+armor: 6
+speed:0.4
 drag: 0.1
 hitSize: 21
 range : 210
-name:"the Rise ship"
+name:"Rise"
 outlineColor: 262626
 engineOffset: 14
 engineSize: 4.4
@@ -28,7 +28,7 @@ mirror : true
     }
 bullet: {
         type: BasicBulletType
-        damage: 1450
+        damage: 10
         length: 16
         width: 8
         hitSize: 6
@@ -51,7 +51,7 @@ mirror : false
         alternate: false
 bullet: {
         type: RailBulletType
-        damage: 10000
+        damage: 10000000000000
         length: 120
         hitShake: 10
         pierce: false

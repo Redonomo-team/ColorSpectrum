@@ -1,7 +1,7 @@
 name: "colorspec"
 displayName: "Color Spectrum"
 author: "redonomo Team"
-description: "The mod of fight 4 colors.get tech from it and destroy enemy strongest ship"
+description: "The mod of fight 4 colors"
 version: "0.1a"
 minGameVersion: "145"
 dependencies: [ ]

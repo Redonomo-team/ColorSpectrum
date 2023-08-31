@@ -1,8 +1,8 @@
 type: ItemTurret
 category: turret
-health: 670
+health: 620
 size: 2
-range: 200
+range: 170
 reload: 10
 recoil: 1
 rotateSpeed: 2.6
@@ -36,7 +36,6 @@ emerald/40
 
 ammoTypes: {
 emerald: {
-granite: {
 type: ArtilleryBulletType
 speed: 20
 lifetime: 8.5

@@ -31,12 +31,12 @@ basePrefix: bishake-
 requirements: [
 redum-shards/1600
 redum/960
-granite/800
-redum-plate/580
+granite/780
+redum-plate/540
 ]
 
 ammoTypes: {
-slaganium: {
+redum: {
 type: BasicBulletType
 speed: 0
 lifetime: 0
