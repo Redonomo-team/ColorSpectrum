@@ -1,10 +1,10 @@
 type: Duct
-descriptiom:"a duct made of emerald strong and fast
 requirements: [
   emerald/2
 ]
 dridgeReplacement:redum-junction
 displaySpeed:3.5
 speed:3.5
+envEnabled: 1
 category: distribution
 health:90

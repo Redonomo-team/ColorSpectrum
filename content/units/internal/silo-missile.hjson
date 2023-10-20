@@ -2,6 +2,7 @@
     name: silo-missile
           type: missile
           controller: MissileAI
+          template: MissileUnitType
           flying: true
           maxRange: 6
           health: 400
@@ -14,13 +15,6 @@
           trailWidth: 2.5
           trailLength: 5
           lifetime: 40
-          hidden: true
-            useUnitCap: false
-            logicControllable: false
-            playerControllable: false
-            allowedInPayloads: false
-            createWreck: false
-            createScorch: false
           weapons: [
             {
           shootCone: 360

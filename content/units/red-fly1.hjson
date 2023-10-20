@@ -3,7 +3,6 @@ flying:true
 health: 110
 speed:2.8
 drag: 0.04
-name:"Call"
 outlineColor: 262626
 weapons:[
 {
@@ -25,6 +24,12 @@ bullet: {
 }
 }
 ]
-research:{
-parent: granite-constructor
+research: {
+parent: redum-constructor
+objectives: [
+    {
+      type: SectorComplete
+      preset: redno-silo
+    }
+  ]
 }

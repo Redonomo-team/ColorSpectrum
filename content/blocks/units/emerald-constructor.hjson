@@ -1,0 +1,19 @@
+type: UnitFactory
+health: 500
+size: 2
+solid:false
+plans: [
+  {
+    unit: green-fly1
+    requirements: [
+        emerald/38
+        granite/25
+    ]
+    time: 2640
+  }
+]
+category: units
+requirements: [
+  emerald/90
+  granite/45
+]

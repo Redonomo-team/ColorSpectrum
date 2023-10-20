@@ -7,7 +7,6 @@
     health : 230
     speed : 1.22
     range : 115
-    name : Redox
     type : mech
     outlineColor: 262626
     mechLegColor:262626

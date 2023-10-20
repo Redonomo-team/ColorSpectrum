@@ -8,7 +8,6 @@
     armor : 2
     speed : 0.8
     range : 180
-    name : Ronix
     type : mech
     outlineColor: 262626
     mechLegColor:262626

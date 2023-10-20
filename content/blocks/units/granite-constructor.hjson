@@ -5,15 +5,6 @@ size: 2
 solid:false
 configurable: false
 plans: [
-  {
-    unit: red-fly1
-    requirements: [
-      redum-shards/35
-      redum/10
-      granite/18
-    ]
-    time: 3120
-  }
 ]
 category: units
 research: {

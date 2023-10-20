@@ -1,0 +1,33 @@
+type:flying
+flying:true
+health: 310
+speed:3.1
+drag: 0.05
+omniMovement: false
+outlineColor: 262626
+circleTarget : true
+alwaysShootWhenMoving: true
+weapons:[
+{
+        reload : 2
+        name : cutter
+        mirror: false
+        rotate: false
+        top: false
+        x : 0
+        y : 3
+        alwaysShooting: true
+bullet: {
+        type: BasicBulletType
+        damage: 10
+        speed: 0
+        lifetime: 1
+        height: 5
+        width: 3
+        hitSize: 7
+}
+}
+]
+research:{
+parent: granite-constructor
+}

@@ -6,7 +6,6 @@ speed:0.4
 drag: 0.1
 hitSize: 21
 range : 210
-name:"Rise"
 outlineColor: 262626
 engineOffset: 14
 engineSize: 4.4
@@ -28,7 +27,7 @@ mirror : true
     }
 bullet: {
         type: BasicBulletType
-        damage: 10
+        damage: 100
         length: 16
         width: 8
         hitSize: 6
