@@ -1,8 +1,6 @@
 type:BeamDrill
 name:"redium bore"
-/*im nerfing redium bore.DO NOT EDIT*/
 drillTime:160
-liquidBoostIntensity: 1.7
 consumes: {
   liquid: {
     liquid: slag

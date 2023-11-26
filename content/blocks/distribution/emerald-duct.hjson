@@ -2,8 +2,8 @@ type: Duct
 requirements: [
   emerald/2
 ]
-dridgeReplacement:redum-junction
-displaySpeed:3.5
+bridgeReplacement:redum-junction
+displayedSpeed:3.5
 speed:3.5
 envEnabled: 1
 category: distribution

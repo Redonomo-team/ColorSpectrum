@@ -10,8 +10,8 @@ mirror : true
         reload : 8
         name : redumlare-gun
         top: false
-        x : 3
-        y : 0
+        x : 4
+        y : 2
 bullet: {
         type: LaserBulletType
         damage: 20

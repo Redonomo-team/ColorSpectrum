@@ -3,7 +3,7 @@ requirements: [
   redum-shards/3
 ]
 junctionReplacement:redum-junction
-displaySpeed:6.0
+displayedSpeed:5.6
 speed:0.04
 category: distribution
 research: core-fortress

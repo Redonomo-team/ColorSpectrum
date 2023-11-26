@@ -1,6 +1,6 @@
   
     smokeEffect : none
-    shootShake : 3
+    shake : 3
     shootSound : shotgun
     heatColor : f77c7c
     targetAir : true

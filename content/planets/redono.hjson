@@ -32,9 +32,8 @@ allowLaunchToNumbered: false
 sectorSize: 3
 orbitSpacing: 12
 orbitRadius: 21
-raradius: 0.8
-minZoom: 1
-maxZoom: 4
+radius: 0.8
+visible: true
 atmosphereRadIn: 0
 atmosphereRadOut: 0.35
 accessible: true
@@ -42,7 +41,6 @@ updateLighting: true
 sectorSeed: 17
 startSector: 8
 bloom: false
-visible: true
 atmosphereColor: f77c7c
 iconColor: 4c2727
 hasAtmosphere: true

@@ -9,7 +9,7 @@ circleTarget : true
 alwaysShootWhenMoving: true
 weapons:[
 {
-        reload : 2
+        reload : 3
         name : cutter
         mirror: false
         rotate: false
@@ -19,12 +19,13 @@ weapons:[
         alwaysShooting: true
 bullet: {
         type: BasicBulletType
-        damage: 10
+        damage: 14
         speed: 0
         lifetime: 1
         height: 5
         width: 3
         hitSize: 7
+        despawnEffect: none
 }
 }
 ]

@@ -58,7 +58,7 @@
                 hitColor : ff4f4f
                 fragBullets: 1
                 fragAngle: 0
-                fragAngleRand: 0
+                fragRandomSpread: 0
                     fragBullet: {
                     type: BasicBulletType
                     trailColor: ff4f4f

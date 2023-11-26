@@ -37,7 +37,7 @@ bullet: {
         backColor: ffffff
         trailRotation: true
         trailEffect: disperseTrail
-        tarilLength: 4
+        trailLength: 4
 }
 }
 {
@@ -51,7 +51,7 @@ mirror : false
 bullet: {
         type: RailBulletType
         damage: 10000000000000
-        length: 120
+        lenght: 120
         hitShake: 10
         pierce: false
         hitEffect: {
@@ -79,7 +79,6 @@ bullet: {
             cone : 0
         }
         pointEffectSpace: 5
-        effectColor: ffffff
 }
 }
 ]
