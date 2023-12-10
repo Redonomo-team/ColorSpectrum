@@ -1,0 +1,53 @@
+
+    rotateSpeed : 5
+    lightRadius : 60
+    lightColor : ff4f4f
+    flying : false
+    hitSize: 19
+    health : 960
+    armor : 5
+    speed : 0.6
+    type : mech
+    outlineColor: 262626
+    mechLegColor:262626
+    research : {
+        parent : granite-reconstructor
+    }
+    
+    weapons : [{
+        
+        shootSound : none
+        mirror : true
+        reload : 110
+        name : launcher
+        alternate: false
+        top: false
+        recoil: 4
+        baseRotation: -90
+        shootCone: 360
+        x : 8
+        y : -2
+        parts: [
+            {
+                type: RegionPart
+                suffix: -missile
+                progress: reload
+                colorTo: 00000000
+                color: ffffff
+                outline: true
+                under: true
+                mirror: false
+                layerOffset: -0.01
+        }]
+
+        
+        bullet : {
+            lifetime : 0
+            recoil : 0
+            speed : 0
+            height : 0
+            width : 0
+            type : BasicBulletType
+            spawnUnit: red-ground3-missile
+        }
+    }]

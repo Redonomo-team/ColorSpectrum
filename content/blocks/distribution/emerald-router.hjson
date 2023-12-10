@@ -1,0 +1,10 @@
+type: DuctRouter
+requirements: [
+  emerald/6
+  granite/2
+]
+regionRotated1: 1
+speed:3.8
+envEnabled: 1
+category: distribution
+health:90

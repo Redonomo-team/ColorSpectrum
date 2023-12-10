@@ -3,9 +3,12 @@ flying:true
 health: 310
 speed:3.1
 drag: 0.05
-omniMovement: false
+range: 2
+lowAltitude: true
+omniMovement: true
 outlineColor: 262626
 circleTarget : true
+faceTarget: true
 alwaysShootWhenMoving: true
 weapons:[
 {
@@ -14,13 +17,14 @@ weapons:[
         mirror: false
         rotate: false
         top: false
+        shootCone: 80
         x : 0
         y : 3
         alwaysShooting: true
 bullet: {
         type: BasicBulletType
         damage: 14
-        speed: 0
+        speed: 1
         lifetime: 1
         height: 5
         width: 3
@@ -29,6 +33,3 @@ bullet: {
 }
 }
 ]
-research:{
-parent: granite-constructor
-}

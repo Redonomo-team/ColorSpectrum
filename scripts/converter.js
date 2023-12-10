@@ -1,0 +1,5 @@
+Events.on(ContentInitEvent, e => {
+    Vars.world.tiles.each((x,y)=>{let blk=Vars.world.tile(x,y);if(blk.block().name.startsWith("redonomo")&&(blk.build==null||blk.build.tile==blk)){blk.setBlock(Vars.content.block(blk.block().name.replace("redonomo","colorspec")),blk.build?blk.build.team:Team.derelict,blk.build?blk.build.rotation:0,blk.build?blk.build:Vars.content.block(blk.block().name.replace("redonomo","colorspec")).newBuilding);  }});
+Vars.world.tiles.each((x,y)=>{let blk=Vars.world.tile(x,y);if(blk.overlay().name.startsWith("redonomo")){blk.setOverlay(Vars.content.block(blk.overlay().name.replace("redonomo","colorspec")));  }});
+Vars.world.tiles.each((x,y)=>{let blk=Vars.world.tile(x,y);if(blk.floor().name.startsWith("redonomo")){blk.setFloorUnder(Vars.content.block(blk.floor().name.replace("redonomo","colorspec")));  }});
+})

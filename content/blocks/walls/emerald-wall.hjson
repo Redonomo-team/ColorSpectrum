@@ -1,0 +1,6 @@
+type:Wall
+requirements:[
+emerald/16
+]
+category:defense
+health:400

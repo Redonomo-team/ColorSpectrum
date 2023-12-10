@@ -1,0 +1,12 @@
+sector: 19
+planet: redono
+difficulty: 5
+research: {
+parent: redno-silo
+objectives: [
+    {
+      type: SectorComplete
+      preset: redno-silo
+    }
+  ]
+}

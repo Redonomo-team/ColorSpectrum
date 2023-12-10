@@ -23,6 +23,10 @@ drawer: [
     {
         type: DrawDefault
     }
+    {
+        type: DrawRegion
+        suffix: -top
+    }
 ]
 outputItems: [
   slaganium/2

@@ -12,7 +12,6 @@
     outlineColor: 262626
     mechLegColor:262626
     research : {
-        
         parent : granite-reconstructor
     }
     

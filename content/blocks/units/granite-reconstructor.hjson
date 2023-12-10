@@ -27,7 +27,7 @@ research:{
     objectives: [
     {
       type: OnSector
-      preset: red-outpost
+      preset: redno-silo
     }
   ]
 }

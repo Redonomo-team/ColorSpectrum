@@ -1,0 +1,111 @@
+    type: flying
+    lowAltitude: true
+    controller: RepairAI
+    defaultCommand: repair
+    speed: 2.1
+    accel: 0.07
+    drag: 0.06
+    flying: true
+    health: 220
+    hitSize: 7
+    armor: 0
+    itemCapacity: 15
+    outlineColor: 262626
+    engineOffset: 4.4
+    faceTarget: true
+	weapons: [
+{
+name: harou-weapon
+x: 0
+y: 1
+mirror: false
+top: false
+rotate: false
+shootCone: 30
+reload: 70
+recoil: 2
+    shootSound: none
+    bullet: {
+        speed: 2
+        lifetime: 30
+        healAmount: 20
+        collidesTeam: true
+        collides: true
+        width: 8
+        height: 18
+        frontColor: d28645
+        backColor: ffffff
+        healColor: d28645
+        despawnHit: true
+        despawnEffect: none
+        hitEffect: [
+        {
+          type: ParticleEffect
+          particles: 6
+          line: true
+          lifetime: 12
+          length: 18
+          lenFrom: 3.5
+          lenTo: 0
+          strokeFrom: 1
+          strokeTo: 0
+          colorFrom: d28645
+          colorTo: ffffff
+        }
+        {
+          type: WaveEffect
+          sizeFrom: 0
+          sizeTo: 10
+          lifetime: 10
+          strokeFrom: 2
+          strokeTo: 0
+          colorFrom: d28645
+          colorTo: ffffff
+        }
+      ]
+    shootEffect: {
+        type: MultiEffect
+        effects: [
+            {
+                type: WaveEffect
+                colorFrom: d28645
+                colorTo: d28645
+                sizeFrom: 1
+                sizeTo: 20
+                strokeFrom: 2
+                strokeTo: 0
+                lifetime: 10
+            }
+            {
+              type: ParticleEffect
+              particles: 1
+              lifetime: 20
+              length: 0
+              sizeFrom: 5
+              sizeTo: 0
+              colorFrom: d28645
+              colorTo: b3602a
+              strokeFrom: 3
+              strokeTo: 1
+              interp: pow3Out
+              spin: 8
+              sizeInterp: pow3In
+              region: colorspec-star
+            }
+        ]
+    }
+    trailLength: 6
+    trailWidth: 2.3
+    trailColor: d28645
+    }
+}
+ ] 
+research: {
+    parent: granite-constructor
+    objectives: [
+        {
+            type: OnSector
+            preset: double-outpost
+        }
+    ]
+}

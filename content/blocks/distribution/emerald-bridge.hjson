@@ -1,0 +1,9 @@
+type: DuctBridge
+requirements: [
+  emerald/18
+  granite/8
+]
+speed:3.8
+envEnabled: 1
+category: distribution
+health:90
