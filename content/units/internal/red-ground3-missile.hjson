@@ -14,7 +14,7 @@
           trailColor: e86161
           trailWidth: 2.5
           trailLength: 6
-          lifetime: 34
+          lifetime: 40
           weapons: [
             {
           shootCone: 360

@@ -31,7 +31,7 @@ generator: {
 allowLaunchToNumbered: false
 sectorSize: 3
 orbitSpacing: 12
-orbitRadius: 21
+orbitRadius: 27
 radius: 0.8
 visible: true
 atmosphereRadIn: 0
@@ -51,7 +51,7 @@ allowLaunchSchematics: true
 allowWaves: true
 defaultCore: core-fortress
 landCloudColor: 4c2727
-parent: tantros
+parent: sun
 alwaysUnlocked: true
 hiddenItems: [
         "copper",
