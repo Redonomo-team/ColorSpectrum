@@ -2,7 +2,7 @@ type: Duct
 requirements: [
   emerald/2
 ]
-bridgeReplacement:redum-junction
+bridgeReplacement:emerald-bridge
 displayedSpeed:3.5
 speed:3.5
 envEnabled: 1

@@ -1,0 +1,25 @@
+type: Constructor
+name: Wall Fabricator
+description: "Creates any faction wall"
+size: 2
+category: units
+requirements: [
+  granite/95
+  slaganium/70
+] 
+hasPower: true
+maxBlockSize: 1
+consumes: {
+  power: 3
+  liquids: [
+    slag/0.1
+  ]
+}
+buildSpeed: 1.5
+filter: [
+    redum-wall,
+    emerald-wall
+]
+research: universal-assembler
+conductivePower: true
+researchCostMultiplier: 0.1

@@ -1,0 +1,33 @@
+{
+    areaSize : 5
+    category : units
+    research : granite-reconstructor
+    health : 365
+    type : UnitAssembler
+    droneType: neutral-assembly-drone
+    health: 850
+    size : 3
+    
+    requirements : [
+        redum/270
+        granite/185
+        redum-plate/90
+        slaganium/75
+    ]
+    consumes : {
+        power : 6  
+        liquid : {
+            liquid : slag
+            amount : 1
+        }
+    }
+    
+    plans : [{
+        unit : red-ground3
+        time : 5200
+        requirements : [
+            colorspec-red-ground1/2
+            colorspec-redum-wall/2
+        ]
+    }]
+}

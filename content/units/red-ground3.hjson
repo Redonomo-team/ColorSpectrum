@@ -4,7 +4,7 @@
     lightColor : ff4f4f
     flying : false
     hitSize: 19
-    health : 960
+    health : 1240
     armor : 5
     speed : 0.6
     type : mech

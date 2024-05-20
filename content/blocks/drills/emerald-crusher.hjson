@@ -5,7 +5,7 @@ liquidBoostIntensity: 2
 consumes: {
   liquid: {
     liquid: slag
-    amount: 0.004
+    amount: 0.25
     booster: true
     optional: true
   }

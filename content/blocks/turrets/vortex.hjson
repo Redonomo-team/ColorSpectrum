@@ -1,0 +1,100 @@
+type: ItemTurret
+category: turret
+scaledHealth: 180
+size: 3
+range: 155
+reload: 110
+recoil: 2
+rotateSpeed: 2.5
+shootSound: bang
+targetGround: true
+targetAir: true
+outlineColor: 262626
+outlineRadius: 4
+consumes : {
+        power : 3.5
+}
+shoot: {
+        shotDelay: 5
+        shots: 3
+}
+
+drawer: {
+type: DrawTurret
+basePrefix: bishake-
+parts: [
+{
+type: RegionPart
+suffix: -wing1
+mirror: true
+under: true
+moveRot: -15
+moveY: -1
+progress: recoil
+}
+{
+type: RegionPart
+suffix: -wing2
+mirror: true
+moveRot: -28
+moveY: -2
+progress: recoil
+}
+]
+}
+
+requirements: [
+redum/195
+granite/140
+redum-plate/105
+slaganium/80
+]
+
+ammoTypes: {
+    redum: {
+    type: BasicBulletType
+    speed: 12
+    lifetime: 12
+    damage: 20
+    splashDamage: 15
+    splashDamageRadius: 12
+    width: 14
+    height: 9
+    collidesGround: true
+    collidesAir: true
+    ammoMultiplier: 2
+    hitEffect: flakExplosionBig
+    hittable: true
+    reflectable: true
+    absorbable: true
+    frontColor: c23657
+    backColor: 8c3551
+    sprite: colorspec-arrow
+    fragBullets: 3
+    fragSpread: 25
+    fragRandomSpread: 0
+    fragBullet: {
+        type: SapBulletType
+        speed: 0
+        damage: 25
+        color: c23657
+        sapStrength: 0.8
+        length: 55
+        collidesGround: true
+        collidesAir: true
+        impact: true
+        shootEffect: shootSmall
+        despawnEffect: none
+        lifetime: 25
+        pierce: true
+        hittable: false
+        hitSize: 4
+        hitEffect: hitLiquid
+        status: sapped
+        statusDuration: 110
+        impact: true
+            }
+    }
+}
+
+research: burst

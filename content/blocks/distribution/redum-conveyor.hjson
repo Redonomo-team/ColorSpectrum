@@ -3,6 +3,7 @@ requirements: [
   redum-shards/3
 ]
 junctionReplacement:redum-junction
+bridgeReplacement:redum-bridge
 displayedSpeed:5.6
 speed:0.04
 category: distribution

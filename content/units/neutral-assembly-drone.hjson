@@ -1,0 +1,24 @@
+type: tether
+name: Granite Assembly drone
+description: Constructs units at assemlers
+flying: true
+drag: 0.075
+accel: 0.1
+speed: 1
+health: 90
+drawCell: false
+engineSize: 1.8
+engineOffset: 4
+payloadCapacity: 0
+targetable: false
+hittable: false
+bounded: false
+outlineColor: 262626
+isEnemy: false
+hidden: true
+useUnitCap: false
+logicControllable: false
+playerControllable: false
+allowedInPayloads: false
+createWreck: false
+controller: AssemblerAI

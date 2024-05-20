@@ -1,0 +1,12 @@
+type: BufferedItemBridge
+requirements: [
+  redum-shards/15
+  granite/8
+]
+bufferCapacity: 15
+research: redum-junction
+range: 5
+speed: 80
+envEnabled: 1
+category: distribution
+health:90

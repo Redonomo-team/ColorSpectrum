@@ -8,7 +8,7 @@ consumes: {
     granite/3
     ]
   liquids: [
-    slag/0.005
+    slag/0.2
   ]
 }
 drawer: [

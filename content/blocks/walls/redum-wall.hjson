@@ -2,7 +2,6 @@ type:Wall
 requirements:[
 redum-shards/20
 ]
-name:"Redium wall"
 category:defense
 health:440
 research : {

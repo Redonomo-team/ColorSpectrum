@@ -7,7 +7,7 @@ consumes: {
     redum/4
     ]
   liquids: [
-    slag/0.01
+    slag/0.5
   ]
 }
 drawer: [

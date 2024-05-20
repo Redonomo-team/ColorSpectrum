@@ -1,5 +1,5 @@
 type:Drill
-name:"Redium drill"
+name:"Redium Drill"
 category:production
 requirements:[
 redum-shards/12
@@ -16,7 +16,7 @@ liquidBoostIntensity: 1.7
 consumes: {
   liquid: {
     liquid: slag
-    amount: 0.004
+    amount: 0.25
     booster: true
     optional: true
   }

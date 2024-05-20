@@ -1,0 +1,10 @@
+type: OverflowGate
+name: Redum Overflow Gate
+description: Outputs items to the sides if the front path is blocked.
+category: distribution
+research: redum-junction
+requirements: [
+  redum-shards/8
+  redum/3
+]
+researchCostMultiplier: 0.5

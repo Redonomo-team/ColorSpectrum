@@ -1,6 +1,6 @@
 type: Pump
 health: 80
-pumpAmount: 0.01
+pumpAmount: 0.1
 requirements: [
     redum/15
     gradum/10

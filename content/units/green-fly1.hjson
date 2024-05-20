@@ -4,6 +4,7 @@ health: 310
 speed:3.1
 drag: 0.05
 range: 2
+engineOffset: 5.5
 lowAltitude: true
 omniMovement: true
 outlineColor: 262626
@@ -18,6 +19,7 @@ weapons:[
         rotate: false
         top: false
         shootCone: 80
+        shootSound: none
         x : 0
         y : 3
         alwaysShooting: true
@@ -29,6 +31,8 @@ bullet: {
         height: 5
         width: 3
         hitSize: 7
+        smokeEffect: none
+        shootEffect: none
         despawnEffect: none
 }
 }

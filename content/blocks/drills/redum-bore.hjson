@@ -4,7 +4,7 @@ drillTime:160
 consumes: {
   liquid: {
     liquid: slag
-    amount: 0.002
+    amount: 0.2
     booster: true
     optional: true
   }
