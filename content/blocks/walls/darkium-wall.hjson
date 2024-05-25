@@ -1,0 +1,14 @@
+type:Wall
+requirements:[
+darkium/6
+]
+category:defense
+health:650
+research : {
+        
+        parent : redum-wall
+        
+        requirements : [
+        darkium/600
+        ]
+}

@@ -6,7 +6,7 @@ category:defense
 health:440
 research : {
         
-        parent : redum-shards
+        parent : core-fortress
         
         requirements : [
         redum-shards/100

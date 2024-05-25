@@ -6,7 +6,7 @@ speed:0.4
 drag: 0.1
 hitSize: 21
 range : 210
-outlineColor: 262626
+outlineColor: 1b1b1b
 engineOffset: 14
 engineSize: 4.4
 rotateSpeed: 5

@@ -5,7 +5,7 @@ health: 200
 speed: 0
 drag: 1
 name:"Active tesla"
-outlineColor: 262626
+outlineColor: 1b1b1b
 outlineRadius: 0
 engines: [
   {

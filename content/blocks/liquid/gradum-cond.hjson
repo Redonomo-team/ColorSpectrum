@@ -1,7 +1,8 @@
 type: Conduit
 health: 50
 liquidCapacity: 12
-liquidPressure: 0.95
+liquidPressure: 1
+junctionReplacement:gradum-junction
 requirements: [
     gradum/3
 ]

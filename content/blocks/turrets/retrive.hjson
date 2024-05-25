@@ -9,7 +9,7 @@ inaccuracy: 12
 rotateSpeed: 2.3
 targetGround: true
 targetAir: false
-outlineColor: 262626
+outlineColor: 1b1b1b
 outlineRadius: 4
 
 drawer: {

@@ -1,5 +1,5 @@
 type:Junction
-name:"Redium junction"
+name:"Redum junction"
 health:120
 requirements:[
 redum-shards/5]

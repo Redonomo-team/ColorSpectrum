@@ -4,8 +4,8 @@ requirements: [
 ]
 junctionReplacement:redum-junction
 bridgeReplacement:redum-bridge
-displayedSpeed:5.6
-speed:0.04
+displayedSpeed:7.7
+speed:0.055
 category: distribution
 research: core-fortress
 health:120

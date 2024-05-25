@@ -1,0 +1,43 @@
+type:flying
+flying:true
+health: 545
+speed:3.25
+drag: 0.08
+range: 2
+engineOffset: 8
+engineSize: 3
+hitSize: 15
+lowAltitude: true
+omniMovement: true
+outlineColor: 1b1b1b
+circleTarget : true
+faceTarget: true
+alwaysShootWhenMoving: true
+weapons:[
+{
+        reload : 2
+        name : cutter
+        mirror: true
+        alternate: false
+        rotate: false
+        top: false
+        shootCone: 80
+        shootSound: none
+        x : 2.75
+        y : 8
+        alwaysShooting: true
+bullet: {
+        type: BasicBulletType
+        damage: 15
+        speed: 1
+        lifetime: 1
+        height: 5
+        width: 3
+        sprite: "colorspec-none"
+        hitSize: 7
+        smokeEffect: none
+        shootEffect: none
+        despawnEffect: none
+}
+}
+]

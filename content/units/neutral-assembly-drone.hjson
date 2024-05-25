@@ -13,7 +13,7 @@ payloadCapacity: 0
 targetable: false
 hittable: false
 bounded: false
-outlineColor: 262626
+outlineColor: 1b1b1b
 isEnemy: false
 hidden: true
 useUnitCap: false

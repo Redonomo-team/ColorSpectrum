@@ -1,0 +1,11 @@
+type: LiquidJunction
+name: Gradum Junction
+description: Used for crossing two conduits
+solid: false
+category: liquid
+research: gradum-cond
+requirements: [
+  gradum/3
+  granite/1
+]
+researchCostMultiplier: 0.5

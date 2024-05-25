@@ -1,0 +1,67 @@
+type: tank
+hitSize: 15
+flying: false
+omniMovement: false
+health: 760
+armor: 4
+speed: 0.76
+rotateSpeed: 3
+itemCapacity: 0
+outlineColor: 1b1b1b
+treadRects: [
+  {
+  x: -15
+  y: -26
+  width: 9
+  height: 8
+  }
+]
+treadPullOffset: 2
+treadFrames: 15
+weapons: [
+{
+    name: blue-ground1-weapon
+    x: 0
+    y: 0
+    mirror: false
+    rotate: true
+    shootSound: pew
+    reload: 18
+    shootY: 3
+    shootCone: 25
+    shoot: {
+        firstShotDelay: 46
+    }
+    shootStatus: unmoving
+    shootStatusDuration : 50
+    bullet: {
+      type: BasicBulletType
+      sprite: missile-large
+      damage: 10
+      speed: 5.5
+      lifetime: 20
+      width: 4.5
+      height: 6
+      trailWidth: 2
+      trailLength: 5
+      trailColor: 101694
+      frontColor : ffffff
+      backColor : 3139ce
+      shootEffect: none
+      smokeEffect: none
+    }
+    parts: [
+        {
+        type: RegionPart
+        suffix: -wing
+        progress: warmup
+        moveY: 0
+        moveX: 2
+        moveRot: 90
+        outline: false
+        under: true
+        mirror: true
+        }
+    ]
+}
+]

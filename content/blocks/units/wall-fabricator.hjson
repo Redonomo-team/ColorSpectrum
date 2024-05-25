@@ -18,7 +18,8 @@ consumes: {
 buildSpeed: 1.5
 filter: [
     redum-wall,
-    emerald-wall
+    emerald-wall,
+    darkium-wall
 ]
 research: universal-assembler
 conductivePower: true

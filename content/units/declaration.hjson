@@ -15,8 +15,7 @@ targetGround: true
 targetAir: true
 singleTarget: true
 outlineRadius: 4
-outlineColor: 262626
-mechLegColor:262626
+outlineColor: 1b1b1b
 alwaysUnlocked:true
 allowLegStep: true
 hovering: true

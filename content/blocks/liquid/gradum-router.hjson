@@ -1,0 +1,15 @@
+type: LiquidRouter
+name: Gradum Router
+description: Distributes inputted liquids to three outputs equally
+size: 1
+underBullets: true
+health: 60
+liquidCapacity: 15
+category: liquid
+squareSprite: false
+research: gradum-cond
+requirements: [
+  gradum/5
+  redum/2
+]
+researchCostMultiplier: 0.5

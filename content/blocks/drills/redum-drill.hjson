@@ -1,6 +1,7 @@
 type:Drill
 name:"Redium Drill"
 category:production
+squareSprite: false
 requirements:[
 redum-shards/12
 ]

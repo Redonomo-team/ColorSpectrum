@@ -10,7 +10,7 @@ rotateSpeed: 1.8
 shootSound: bang
 targetGround: true
 targetAir: true
-outlineColor: 262626
+outlineColor: 1b1b1b
 shoot: {
     firstShotDelay: 18
 }

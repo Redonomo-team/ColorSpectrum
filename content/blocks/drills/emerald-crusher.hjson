@@ -1,5 +1,5 @@
 type:BeamDrill
-name:"Emerald crasher"
+name:"Emerald Crusher"
 drillTime:120
 liquidBoostIntensity: 2
 consumes: {

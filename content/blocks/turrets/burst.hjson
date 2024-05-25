@@ -12,7 +12,7 @@
     range : 100
     type : PowerTurret
     size : 2
-    outlineColor: 262626
+    outlineColor: 1b1b1b
     outlineRadius: 4
     shoot: {
         shotDelay: 2

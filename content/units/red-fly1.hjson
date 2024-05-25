@@ -3,7 +3,7 @@ flying:true
 health: 110
 speed:2.8
 drag: 0.07
-outlineColor: 262626
+outlineColor: 1b1b1b
 weapons:[
 {
 mirror : true

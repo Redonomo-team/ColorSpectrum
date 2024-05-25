@@ -7,8 +7,8 @@
     speed : 1.22
     range : 115
     type : mech
-    outlineColor: 262626
-    mechLegColor:262626
+    outlineColor: 1b1b1b
+    mechLegColor:1b1b1b
     researchCostMultiplier: 1
     
     research : {

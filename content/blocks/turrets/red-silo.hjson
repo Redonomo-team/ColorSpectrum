@@ -9,7 +9,7 @@ rotateSpeed: 230
 shootSound: bang
 targetGround: true
 targetAir: true
-outlineColor: 262626
+outlineColor: 1b1b1b
 outlineRadius: 4
 shootY: 0
 shoot: {

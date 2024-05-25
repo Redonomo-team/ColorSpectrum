@@ -1,5 +1,5 @@
 type:BeamDrill
-name:"redium bore"
+name:"Redum Miner"
 drillTime:160
 consumes: {
   liquid: {

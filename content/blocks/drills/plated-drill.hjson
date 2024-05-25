@@ -1,6 +1,7 @@
 type:Drill
 name:"Red Plated Drill"
 category:production
+squareSprite: false
 requirements:[
 redum/95
 redum-plate/50

@@ -1,5 +1,5 @@
 type:Router
-name:"Redium router"
+name:"Redum router"
 health:140
 requirements:[
 redum-shards/5]

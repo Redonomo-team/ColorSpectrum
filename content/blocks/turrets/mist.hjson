@@ -2,6 +2,7 @@ type: ItemTurret
 category: turret
 health: 620
 size: 2
+shootY: 0
 range: 170
 reload: 10
 recoil: 1
@@ -9,7 +10,7 @@ rotateSpeed: 2.6
 shootSound: bang
 targetGround: true
 targetAir: true
-outlineColor: 262626
+outlineColor: 1b1b1b
 
 drawer: {
 type: DrawTurret
@@ -24,6 +25,17 @@ x: 0
 moveY: -1
 moveX: 1
 moveRot: -20
+progress: recoil
+}
+{
+type: RegionPart
+suffix: -back
+mirror: true
+under: true
+x: 0
+moveY: 0
+moveX: 0
+moveRot: -45
 progress: recoil
 }
 ]
@@ -52,7 +64,7 @@ shootEffect: [
     {
             type: ParticleEffect
             particles: 1
-            lifetime: 26
+            lifetime: 14
             length: 0
             sizeFrom: 5
             sizeTo: 0
