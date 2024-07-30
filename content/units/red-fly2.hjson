@@ -1,0 +1,47 @@
+type:flying
+flying:true
+health: 265
+armor: 2
+speed:2.25
+drag: 0.07
+outlineColor: 1b1b1b
+weapons:[
+{
+mirror : true
+        reload : 65
+        name : accept-weapon
+        top: false
+        x : 0
+        y : 0
+bullet: {
+        type: SapBulletType
+        speed: 0
+        damage: 60
+        color: c23657
+        knockback: -2
+        sapStrength: 1
+        length: 70
+        collidesGround: true
+        collidesAir: true
+        shootEffect: shootSmall
+        despawnEffect: none
+        lifetime: 30
+        pierce: true
+        hittable: false
+        hitSize: 4
+        hitEffect: hitLiquid
+        status: sapped
+        statusDuration: 110
+        impact: true
+}
+}
+]
+research: {
+parent: granite-reconstructor
+objectives: [
+    {
+      type: SectorComplete
+      preset: red_lands
+    }
+  ]
+}

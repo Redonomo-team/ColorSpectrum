@@ -3,13 +3,10 @@ type: UnitCargoLoader
 health: 700
 size: 2
 unitType: tesla-block-unit
+hasItems: false
 polyRadius: 0
 consumes:{
-items:[
-    reaction-sand/12
-    granite/6
-]
-power: 4
+power: 5
 }
 category: turret
 //TODO normal item requirements

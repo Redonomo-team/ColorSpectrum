@@ -82,7 +82,6 @@ ammoTypes: {
         length: 55
         collidesGround: true
         collidesAir: true
-        impact: true
         shootEffect: shootSmall
         despawnEffect: none
         lifetime: 25

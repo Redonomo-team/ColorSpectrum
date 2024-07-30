@@ -1,6 +1,6 @@
 type: Duct
 requirements: [
-  emerald/2
+  emerald/1
 ]
 bridgeReplacement:emerald-bridge
 displayedSpeed:3.5

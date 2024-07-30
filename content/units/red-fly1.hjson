@@ -14,7 +14,7 @@ mirror : true
         y : 2
 bullet: {
         type: LaserBulletType
-        damage: 20
+        damage: 10
         length: 26
         width: 8
         hitSize: 6

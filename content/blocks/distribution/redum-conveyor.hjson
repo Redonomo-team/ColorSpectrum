@@ -1,6 +1,6 @@
 type: Conveyor
 requirements: [
-  redum-shards/3
+  redum-shards/1
 ]
 junctionReplacement:redum-junction
 bridgeReplacement:redum-bridge

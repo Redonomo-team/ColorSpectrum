@@ -1,11 +1,10 @@
 type: Reconstructor
-name: "Granite reconstructor"
 size: 3
 health: 540
-description: "Upgrades redox to ronix"
 constructTime: 4128
 upgrades: [
   [red-ground1, red-ground2]
+  [red-fly1, red-fly2]
 ]
 consumes: {
 items:{

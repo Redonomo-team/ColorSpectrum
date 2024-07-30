@@ -51,7 +51,6 @@ sapStrength: 0.6
 length: 120
 collidesGround: true
 collidesAir: true
-impact: true
 buildingDamageMultiplier: 0.01
 shootEffect: shootSmall
 despawnEffect: none
