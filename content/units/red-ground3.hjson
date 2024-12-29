@@ -11,7 +11,7 @@
     outlineColor: 1b1b1b
     mechLegColor:1b1b1b
     research : {
-        parent : granite-reconstructor
+        parent : universal-assembler
     }
     
     weapons : [{
