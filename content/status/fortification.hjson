@@ -1,0 +1,22 @@
+    healthMultiplier : 1.5
+    speedMultiplier : 0.25
+    color : 1e29fb
+    effectChance: 0.08
+    name : Fortification
+    
+    effect : {
+        
+        type : MultiEffect
+        
+        effects : [
+            {
+                colorFrom : 1e29fb
+                sizeFrom : 0
+                strokeFrom: 3
+                lifetime : 40
+                colorTo : 1e29fb
+                sides: 6
+                sizeTo : 5
+                type : WaveEffect
+            }]
+    }

@@ -32,7 +32,7 @@ weapons: [
     shoot: {
         firstShotDelay: 46
     }
-    shootStatus: unmoving
+    shootStatus: fortification
     shootStatusDuration : 50
     bullet: {
       type: BasicBulletType

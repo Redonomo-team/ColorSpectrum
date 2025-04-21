@@ -7,6 +7,8 @@ drag: 1
 name:"Active tesla"
 outlineColor: 1b1b1b
 outlineRadius: 0
+physics: false
+bounded: false
 engines: [
   {
     x: 0
